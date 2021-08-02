@@ -16,19 +16,13 @@ npm run build
 ```
 
 ### Run your unit tests
+#To Be completed
 ```
 npm run test:unit
 ```
 
-### Run your end-to-end tests
-```
-npm run test:e2e
+### Element UI For reference
 ```
 
-### Lints and fixes files
+https://element-plus.org/#/en-US
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
