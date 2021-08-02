@@ -1,6 +1,12 @@
 # search-app
 
-## Project setup
+## Pre req
+```
+Node >=12
+element-plus
+Using Vue 3 setup
+```
+### Project setup
 ```
 npm install
 ```
@@ -15,13 +21,12 @@ npm run serve
 npm run build
 ```
 
-### Run your unit tests
-#To Be completed
+### Run your unit tests (To Be completed)
 ```
 npm run test:unit
 ```
 
-### Element UI For reference
+### Element Plus For reference
 ```
 
 https://element-plus.org/#/en-US
