@@ -15,6 +15,10 @@ npm install
 ```
 npm run serve
 ```
+### Run a mock server (It serves up users, tickets & organizations json files as /users, /tickets & /organizations)
+```
+npm run mocky
+```
 
 ### Compiles and minifies for production
 ```
