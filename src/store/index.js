@@ -1,13 +1,12 @@
 import { createStore } from 'vuex'
-import userSearch from './modules/userSearch'
+import entities from './modules/entities'
 
 const debug = process.env.NODE_ENV !== 'production'
 
-const store = createStore({
+export default createStore({
   modules: {
-    userSearch
+    entities
   },
   strict: debug
 })
-
-export default store
+  

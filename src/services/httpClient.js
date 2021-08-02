@@ -3,7 +3,7 @@ import axios from 'axios'
 class HTTPClient {
   constructor () { 
     this.client = axios.create({
-      baseURL: process.env.API_BASE_URL
+      baseURL: 'http://localhost:3000'
     })
 
     this.client.interceptors.request.use(this.requestInterceptor)

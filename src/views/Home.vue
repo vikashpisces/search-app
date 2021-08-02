@@ -1,12 +1,20 @@
 <template>
-  <div class="home-view">
-    <h1> this is Home Page</h1>
-  </div>
+  <app-layout 
+    :showLeftDrawer="false"
+    page-title="Search App"
+    >
+    <router-view />
+  </app-layout>
 </template>
 
 <script>
-export default {
+import AppLayout from '@/layouts/AppLayout.vue'
 
+export default {
+  name: 'Home',
+  components: {
+    AppLayout
+  }
 }
 </script>
 
